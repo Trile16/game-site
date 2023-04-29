@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import blackjackPreview from "./assets/blackjack-image-preview.png";
+import construction from "./assets/construction.png";
 
 function Casino(props) {
   return (
@@ -12,12 +13,12 @@ function Casino(props) {
       />
       <Card
         name="Roulette"
-        image={blackjackPreview}
+        image={construction}
         link="https://tri-le-blackjack.netlify.app"
       />
       <Card
         name="Video Poker"
-        image={blackjackPreview}
+        image={construction}
         link="https://tri-le-blackjack.netlify.app"
       />
     </div>

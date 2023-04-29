@@ -1,14 +1,14 @@
 import React from "react";
 import Card from "./Card";
-import blackjackPreview from "./assets/blackjack-image-preview.png";
+import whackAMolePreview from "./assets/whack-a-mole-image-preview.png";
 
 function Action(props) {
   return (
     <div className="game-display">
       <Card
         name="Whack-a-mole"
-        image={blackjackPreview}
-        link="https://tri-le-blackjack.netlify.app"
+        image={whackAMolePreview}
+        link="https://tri-le-whack-a-mole.netlify.app/"
       />
     </div>
   );

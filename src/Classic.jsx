@@ -1,25 +1,25 @@
 import React from "react";
 import Card from "./Card";
-import blackjackPreview from "./assets/blackjack-image-preview.png";
+import construction from "./assets/construction.png";
 
 function Classic(props) {
   return (
     <div className="game-display">
       <Card
         name="Tic-Tac-Toe"
-        image={blackjackPreview}
+        image={construction}
         link="https://tri-le-blackjack.netlify.app"
       />
 
       <Card
         name="Snake"
-        image={blackjackPreview}
+        image={construction}
         link="https://tri-le-blackjack.netlify.app"
       />
 
       <Card
         name="Connect Four"
-        image={blackjackPreview}
+        image={construction}
         link="https://tri-le-blackjack.netlify.app"
       />
     </div>
