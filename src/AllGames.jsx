@@ -2,6 +2,7 @@ import React from "react";
 import { Card } from "./";
 import blackjackPreview from "./assets/blackjack-image-preview.png";
 import whackAMolePreview from "./assets/whack-a-mole-image-preview.png";
+import ticTacToePreview from "./assets/tic-tac-toe-image-preview.png";
 import construction from "./assets/construction.png";
 
 function AllGames(props) {
@@ -33,8 +34,8 @@ function AllGames(props) {
 
       <Card
         name="Tic-Tac-Toe"
-        image={construction}
-        link="https://tri-le-blackjack.netlify.app"
+        image={ticTacToePreview}
+        link="https://tri-le-tic-tac-toe.netlify.app/"
       />
 
       <Card
