@@ -4,6 +4,7 @@ import blackjackPreview from "./assets/blackjack-image-preview.png";
 import snake from "./assets/snake-image-preview.png";
 import ticTacToePreview from "./assets/tic-tac-toe-image-preview.png";
 import whackAMolePreview from "./assets/whack-a-mole-image-preview.png";
+import shieldHeroPreview from "./assets/shield-hero-preview.png";
 import construction from "./assets/construction.png";
 
 function AllGames(props) {
@@ -49,6 +50,12 @@ function AllGames(props) {
         name="Whack-a-mole"
         image={whackAMolePreview}
         link="https://tri-le-whack-a-mole.netlify.app/"
+      />
+
+      <Card
+        name="Shield Hero"
+        image={shieldHeroPreview}
+        link="https://tri-le-shield-hero.netlify.app"
       />
     </div>
   );
