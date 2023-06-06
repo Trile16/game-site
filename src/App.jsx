@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import { Header, GameDisplay } from "./index.jsx";
-import { Routes, Route } from "react-router-dom";
+import { Header, GameDisplay, Footer } from "./index.jsx";
 
 function App() {
   return (
     <>
       <Header />
       <GameDisplay />
+      <Footer />
     </>
   );
 }
