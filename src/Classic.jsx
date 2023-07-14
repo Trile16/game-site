@@ -18,12 +18,6 @@ function Classic(props) {
         image={snake}
         link="https://tri-le-snake.netlify.app/"
       />
-
-      <Card
-        name="Connect Four"
-        image={construction}
-        link="https://tri-le-blackjack.netlify.app"
-      />
     </div>
   );
 }

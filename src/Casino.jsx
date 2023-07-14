@@ -11,16 +11,6 @@ function Casino(props) {
         image={blackjackPreview}
         link="https://tri-le-blackjack.netlify.app"
       />
-      <Card
-        name="Roulette"
-        image={construction}
-        link="https://tri-le-blackjack.netlify.app"
-      />
-      <Card
-        name="Video Poker"
-        image={construction}
-        link="https://tri-le-blackjack.netlify.app"
-      />
     </div>
   );
 }

@@ -17,18 +17,6 @@ function AllGames(props) {
       />
 
       <Card
-        name="Connect Four"
-        image={construction}
-        link="https://tri-le-blackjack.netlify.app"
-      />
-
-      <Card
-        name="Roulette"
-        image={construction}
-        link="https://tri-le-blackjack.netlify.app"
-      />
-
-      <Card
         name="Snake"
         image={snake}
         link="https://tri-le-snake.netlify.app/"
@@ -38,12 +26,6 @@ function AllGames(props) {
         name="Tic-Tac-Toe"
         image={ticTacToePreview}
         link="https://tri-le-tic-tac-toe.netlify.app/"
-      />
-
-      <Card
-        name="Video Poker"
-        image={construction}
-        link="https://tri-le-blackjack.netlify.app"
       />
 
       <Card
