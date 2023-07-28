@@ -17,6 +17,7 @@ function Classic(props) {
         name="Snake"
         image={snake}
         link="https://tri-le-snake.netlify.app/"
+        target="_blank"
       />
     </div>
   );

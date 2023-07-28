@@ -5,7 +5,6 @@ import snake from "./assets/snake-image-preview.png";
 import ticTacToePreview from "./assets/tic-tac-toe-image-preview.png";
 import whackAMolePreview from "./assets/whack-a-mole-image-preview.png";
 import shieldHeroPreview from "./assets/shield-hero-preview.png";
-import construction from "./assets/construction.png";
 
 function AllGames(props) {
   return (

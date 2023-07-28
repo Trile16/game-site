@@ -6,10 +6,10 @@ import lLogo from "./assets/LinkedIn-Logo.png";
 function Footer(props) {
   return (
     <div id="footer">
-      <a href="https://github.com/Trile16">
+      <a href="https://github.com/Trile16" target="_blank">
         <img className="icon" src={ghLogo} alt="GitHub Logo" />
       </a>
-      <a href="https://www.linkedin.com/in/trile16/">
+      <a href="https://www.linkedin.com/in/trile16/" target="_blank">
         <img className="icon" src={lLogo} alt="LinkedIn Logo" />
       </a>
     </div>
