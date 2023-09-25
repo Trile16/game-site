@@ -5,6 +5,7 @@ import snake from "./assets/snake-image-preview.png";
 import ticTacToePreview from "./assets/tic-tac-toe-image-preview.png";
 import whackAMolePreview from "./assets/whack-a-mole-image-preview.png";
 import shieldHeroPreview from "./assets/shield-hero-preview.png";
+import simonPreview from "./assets/simon-preview.png";
 
 function AllGames(props) {
   return (
@@ -37,6 +38,12 @@ function AllGames(props) {
         name="Shield Hero"
         image={shieldHeroPreview}
         link="https://tri-le-shield-hero.netlify.app"
+      />
+
+      <Card
+        name="Simon"
+        image={simonPreview}
+        link="https://tri-le-simon.netlify.app"
       />
     </div>
   );

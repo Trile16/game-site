@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./Card";
-import construction from "./assets/construction.png";
 import snake from "./assets/snake-image-preview.png";
 import ticTacToePreview from "./assets/tic-tac-toe-image-preview.png";
+import simonPreview from "./assets/simon-preview.png";
 
 function Classic(props) {
   return (
@@ -18,6 +18,12 @@ function Classic(props) {
         image={snake}
         link="https://tri-le-snake.netlify.app/"
         target="_blank"
+      />
+
+      <Card
+        name="Simon"
+        image={simonPreview}
+        link="https://tri-le-simon.netlify.app"
       />
     </div>
   );
