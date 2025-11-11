@@ -1,4 +1,9 @@
 #navbar {
   display: flex;
   justify-content: space-around;
+  font-size: medium;
+}
+
+a {
+  color: white;
 }
